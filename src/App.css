@@ -4,6 +4,17 @@
   color: rgb(25, 134, 229);
 }
 
+.box {
+  width: 736px;
+  height: 723px;
+  position: absolute;
+  left: 327px;
+  right: 30px;
+  background-color: rgb(50, 89, 247);
+  color: aliceblue;
+  border-radius: 10px;
+}
+
 .frm {
   position: absolute;
   top: 50%;
@@ -27,8 +38,10 @@
   position: relative;
   left: 142px;
   top: 15px;
-  box-shadow: 3px -3px 6px 5px rgb(245 240 240);
-  color: blue;
+  /* box-shadow: 3px -3px 6px 5px rgb(245 240 240); */
+  box-shadow: 3px -3px 6px 5px rgb(48, 46, 46);
+  color: rgb(9, 9, 241);
+  background-color: white;
 }
 
 .int {
@@ -36,16 +49,18 @@
   height: 50px;
   padding: 20px;
   border-radius: 29px;
-  box-shadow: 5px 3px 5px 3px rgb(245 240 240);
+  /* box-shadow: 5px 3px 5px 3px rgb(245 240 240); */
+  box-shadow: 3px -3px 6px 5px rgb(48, 46, 46);
+  background-color: aliceblue;
   margin: 37px;
   font-size: 27px;
   left: -32px;
   top: 10px;
   color: white;
-  display: flex;
-  align-content: center;
+  /* display: flex;
+  align-content: center; */
   text-align: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .btn {
@@ -58,6 +73,7 @@
   height: 48px;
   font-size: 30px;
   box-shadow: 5px 3px 5px 3px rgb(245 240 240);
+  box-shadow: 3px -3px 6px 5px rgb(48, 46, 46);
 }
 
 .todlist {
@@ -66,10 +82,11 @@
   left: 37px;
   top: -6px;
   border: 0px solid red;
+  box-shadow: 3px -3px 6px 5px rgb(48, 46, 46);
   border-radius: -28px;
   width: 309px;
   font-size: 21px;
-  color: rgb(253, 104, 50);
+  color: rgb(232, 76, 19);
   margin: 5px;
   padding: 3px;
   height: 36px;
@@ -79,7 +96,7 @@
   display: flex;
   color: rgb(25, 25, 27);
   position: relative;
-  left: 202px;
+  left: 192px;
   top: 5px;
   width: 5px;
   height: 5px;
@@ -87,8 +104,8 @@
 
 .edit {
   position: relative;
-  left: 195px;
-  top: 5px;
+  left: 193px;
+  top: -1px;
 }
 .list {
   display: flex;
